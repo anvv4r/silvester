@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background-image: url('../img/bg.svg');
+    background-size: cover;
+    background-position: center;
+    background-color: aliceblue;
+    padding: 10rem;
+}
+
+@font-face {
+    font-family: 'FromtheWoods';
+    src: url('../font/FromtheWoods-Regular.woff2') format('woff2');
+    font-display: swap;
+}
+
+
+h1 {
+    font-size: 9rem;
+    font-family: 'FromtheWoods', sans-serif;
+    font-weight: 1200;
+    color: white;
+    margin-bottom: 2rem;
+    text-align: right;
+    margin-top: 0;
+    margin-right: 3rem;
+}
+
+p {
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 0;
+    color: #333;
+    margin-top: 7rem;
+    margin-right: 3rem;
+    text-align: right;
+}
+
+section.main {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    max-width: 80%;
+    align-items: center;
+}
+
+
+section.main .main_title {
+    flex: 2;
+    width: 50%;
+}
+
+section.main .main__img {
+    flex: 1;
+    width: 50%;
+}
