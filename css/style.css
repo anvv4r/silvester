@@ -3,8 +3,8 @@ body {
     background-size: cover;
     background-position: center;
     background-color: aliceblue;
-    padding: 10rem;
     margin: 0;
+    height: 100vh;
 }
 
 @font-face {
@@ -15,42 +15,41 @@ body {
 
 
 h1 {
+    color: white;
     font-size: 9rem;
     font-weight: 900;
     font-family: 'FromtheWoods', sans-serif;
-    color: white;
-    margin-top: 0;
-    margin-right: 3rem;
-    margin-bottom: 2rem;
+    margin: 0 0 0 10rem;
     text-align: right;
+    text-shadow: 3px 3px 6px gray;
 }
 
 p {
+    color: #333;
     font-size: 2rem;
     font-weight: 400;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #333;
-    margin-top: 7rem;
-    margin-right: 3rem;
-    margin-bottom: 0;
+    margin: 7rem 0 0 10rem;
     text-align: right;
 }
 
 section.main {
     display: flex;
-    flex-direction: row;
-    text-align: center;
-    max-width: 80%;
+    justify-content: center;
     align-items: center;
+    height: 100%;
+    gap: 4rem;
+    max-width: 90%;
+    min-width: 400px;
 }
 
-
-section.main .main_title {
-    flex: 2;
-    width: 50%;
+section.main .main_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 section.main .main__img {
-    flex: 1;
-    width: 50%;
+    display: flex;
+    flex-direction: column;
 }
